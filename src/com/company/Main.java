@@ -16,12 +16,12 @@ public class Main {
                 System.out.println("Guess the number 0....9: ");
                 guess = scanner.nextInt();
                 if (guess != number) {
-                    System.out.println("You number is " + (guess != number? "less" : "quarter"));
+                    System.out.println("You number is " + (guess > number? "less" : "quarter"));
                     counter++;
                 }
             }
             System.out.println("You are " +(guess == number? "WIN" : "lose. Number is " + number));
-            System.out.println("Do you want to coutune?");
+            System.out.println("Do you want to coutune? Yes - 1, no - 0");
         } while (scanner.nextInt() == 1);
     }
 }
