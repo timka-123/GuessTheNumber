@@ -16,7 +16,7 @@ public class Main {
                 System.out.println("Guess the number 0....9: ");
                 guess = scanner.nextInt();
                 if (guess != number) {
-                    System.out.println("You number is " + (guess > number? "less" : "quarter"));
+                    System.out.println("You number is " + (guess < number? "less" : "quarter"));
                     counter++;
                 }
             }
