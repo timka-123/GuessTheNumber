@@ -2,4 +2,4 @@ GuessTheNumber
 
 Простая консольная игра на Java
 
-Для запуска нужна ide(желательно intellij udea)
+Для запуска нужна ide(желательно intellij idea)
