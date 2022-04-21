@@ -1,5 +1,7 @@
-GuessTheNumber
+### GuessTheNumber
 
-Простая консольная игра на Java
+Easy console game, written on Java.
 
-Для запуска нужна ide(желательно intellij idea)
+### Requirements
+
+<li>Java JDK 8</li>
